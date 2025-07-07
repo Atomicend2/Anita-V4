@@ -1,14 +1,16 @@
 {
-  "name": "Queen Anita V4",
-  "description": "A WhatsApp Bot Created By David Cyril",
-  "logo": "https://telegra.ph/file/f6230a0cb5b118fa01561.jpg",
+  "name": "Eden",
+  "description": "A WhatsApp Bot made by me",
+  "logo": "https://iili.io/F0fy642.md.jpg",
   "keywords": ["bot", "WhatsApp", "JavaScript"],
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "
+{"noiseKey":{"private":{"type":"Buffer","data":"cJwUt+XM+nOMEn7n8Zs4nRXlZdANVOf73m0JO4C+XU8="},"public":{"type":"Buffer","data":"bcCVaDr/qphBxbZHgo6sD6ZxAtWQTPtiP05kNML5Aws="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"yC6OBoPII2AQxMD5szEXf44jL5FsBSGGIFwaDj2evm4="},"public":{"type":"Buffer","data":"v8wtvdy07ZBRFSlOkGDwQwAz2YiO1hcySxoaQBvnmUs="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"EFh1E1n4+srtvG+Pu7OZ0BtVJ41IrfQYso6YLbtbunE="},"public":{"type":"Buffer","data":"BCF1cyPpjKfgj5HOpzzHRww6uzk/oHn/XfO2FBdBanY="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"MJd2eN2nD8R4ZB37hzmo6zFeY4ixaywXzocd2I07GW8="},"public":{"type":"Buffer","data":"VKL2ZLbgJoZWXia8/od5DVAXQTZXaz8A/Y/LbTZ16GA="}},"signature":{"type":"Buffer","data":"o2lWJ26htr53XRMuNohYJsIjo9m5Eq/QEpUfnK1/wc/pBpa65KkE4O99JdeqbUP2Zo7RLDlAkyy7IL3a26EcDQ=="},"keyId":1},"registrationId":115,"advSecretKey":"g9lyuuFmqm4Y+7Y1nUaEhn3IhpvBBZMZvqhT5pVzCAY=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"CYRILDEV","me":{"id":"2347056705430:17@s.whatsapp.net","lid":"39123142332663:17@lid"},"account":{"details":"CPHDsfEDEJjRrcMGGAcgACgA","accountSignatureKey":"0mYW6u7nv8pnfZ+u0xQuGdoMRgyRGFCHQxCNDQae/FI=","accountSignature":"ID0vKTEoLJDS6lmRAa7st4qkZmlzCx7z+iQoye1WPw1PB077pQIViTNeDsw1cB5uExXWUMEOm/N4UscGb8KyCw==","deviceSignature":"chPis5v78lp9ATbx9F09egYB9ytqC5SS0H5xwX66Hkt0PMaPo7JlLSphyF1IMdEahx9h+5ForTiUkf3JNs7fBA=="},"signalIdentities":[{"identifier":{"name":"2347056705430:17@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BdJmFuru57/KZ32frtMULhnaDEYMkRhQh0MQjQ0GnvxS"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CBIICA=="},"lastAccountSyncTimestamp":1751869601,"lastPropHash":"3gPUJk","myAppStateKeyId":"AAAAAFGZ"}
+"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -51,15 +53,15 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "2347056705430"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "AUTHOR": {
       "description": "Put Sticker Pack Author_Name.",
-      "value": "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋",
+      "value": "Atomic",
       "required": false
     }
   },
@@ -68,4 +70,4 @@
       "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
     }
   ]
-}
+  }
